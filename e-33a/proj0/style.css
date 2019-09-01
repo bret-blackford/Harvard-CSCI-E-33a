@@ -1,21 +1,39 @@
-
-
 .red {
-    color:red;
+    color: red;
     background-color: yellow;
 }
 
 @media screen and (max-width: 600px) {
-  nav.hidden {
-    display: none;
-      background-color: green;
-  }
+    nav.hidden {
+        display: none;
+        background-color: green;
+    }
 }
 
 @media screen and (min-width: 601px) {
-  header.hidden {
-    display: none;
-      background-color: blueviolet;
-  }
+    header.hidden {
+        display: none;
+        background-color: blueviolet;
+    }
 }
 
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: darkgrey;
+}
+
+ul.menu li a {
+    text-decoration:  none;
+    padding: 8px 16px;
+    display: block;
+    color: green;
+    text-align: center;
+}
+
+ul.menu a:hover {
+    background-color: green;
+    color: white;
+}
