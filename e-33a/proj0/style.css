@@ -5,3 +5,17 @@
     background-color: yellow;
 }
 
+@media screen and (max-width: 600px) {
+  nav.hidden {
+    display: none;
+      background-color: green;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  header.hidden {
+    display: none;
+      background-color: blueviolet;
+  }
+}
+
