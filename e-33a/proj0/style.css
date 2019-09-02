@@ -17,6 +17,27 @@
     }
 }
 
+nav.hidden ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 10em;
+    background-color: yellowgreen;
+}
+
+nav.hidden ul a:hover {
+    background-color: grey;
+    color: white;
+}
+
+nav.hidden li a {
+    /*text-decoration:  none;*/
+    padding: 8px 8px;
+    display: block;
+    color: green;
+    text-align: center;
+}
+
 ul.menu {
   list-style-type: none;
   margin: 0;
