@@ -24,15 +24,21 @@ header.hidden {
     font-weight: bold;
 }
 
-header.hidden a{
+header.hidden a {
     color: black;
+    padding: 2em;
 }
 
-nav.hidden ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 90%;
+header.hidden a:hover {
+    color: white;
+    background-color: black;
+}
+
+nav.hidden ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 90%;
     background-color: yellowgreen;
 }
 
@@ -50,15 +56,15 @@ nav.hidden li a {
 }
 
 ul.menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  background-color: darkgrey;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: darkgrey;
 }
 
 ul.menu li a {
-    text-decoration:  none;
+    text-decoration: none;
     padding: 8px 16px;
     display: block;
     color: green;
