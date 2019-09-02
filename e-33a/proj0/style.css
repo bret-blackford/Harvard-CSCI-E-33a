@@ -17,11 +17,22 @@
     }
 }
 
+header.hidden {
+    background-color: hotpink;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+header.hidden a{
+    color: black;
+}
+
 nav.hidden ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 10em;
+  width: 90%;
     background-color: yellowgreen;
 }
 

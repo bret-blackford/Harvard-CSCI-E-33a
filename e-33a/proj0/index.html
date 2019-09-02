@@ -12,23 +12,32 @@
     <header class="hidden">
         <a href="menu.html">menu</a>
     </header>
-    <nav class="hidden">
-        side nav
-        <ul>
-            <li><a href="index.html">one</a></li>
-            <li><a href="#">two</a></li>
-            <li><a href="#">three</a></li>
-        </ul>
-    </nav>
-    <main>
-        This should be plain text. Next will be using Bootstrap ...
-        <div class="alert alert-warning" role="alert">
-            Hello, World ! (using Bootstrap alert alert-warning)
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3" style="background-color:purple;">
+                <nav class="hidden">
+                    side nav
+                    <ul>
+                        <li><a href="index.html">one</a></li>
+                        <li><a href="#">two</a></li>
+                        <li><a href="#">three</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="col-sm-9" style="background-color:yellow;">
+                <main>
+                    This should be plain text. Next will be using Bootstrap ...
+                    <div class="alert alert-warning" role="alert">
+                        Hello, World ! (using Bootstrap alert alert-warning)
+                    </div>
+                    <div class="red">
+                        I'm mad !!
+                    </div>
+                </main>
+            </div>
         </div>
-        <div class="red">
-            I'm mad !!
-        </div>
-    </main>
+    </div>
 </body>
 
 </html>
